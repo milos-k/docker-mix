@@ -15,7 +15,7 @@ services:
         volumes:
             - "${PWD}/maria-db-storage:/var/lib/mysql"
         environment:
-            TZ: "Europe/Rome"
+            TZ: "Europe/Belgrade"
             MYSQL_ALLOW_EMPTY_PASSWORD: "no"
             MYSQL_ROOT_PASSWORD: "rootpwd"
             MYSQL_USER: 'testuser'

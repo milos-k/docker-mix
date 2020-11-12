@@ -19,5 +19,5 @@ sudo docker-compose up -d
 
 stop with:
 ```bash
-sudo docker-compose stop
+sudo docker-compose down
 ```
